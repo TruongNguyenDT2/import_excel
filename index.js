@@ -3,7 +3,7 @@ const multer = require("multer");
 const exceljs = require("exceljs");
 
 const app = express();
-const port = 10000;
+const port = 9386;
 
 // Cấu hình multer để lưu file tải lên vào bộ nhớ
 const storage = multer.memoryStorage();
